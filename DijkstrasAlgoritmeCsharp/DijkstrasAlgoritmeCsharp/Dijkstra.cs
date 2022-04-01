@@ -29,18 +29,18 @@ namespace DijkstrasAlgoritmeCsharp
         /// <param name="nodeCosts">Array containing the costs to each available node</param>
         /// <param name="visited">Array containing visited nodes</param>
         /// <returns></returns>
-        public int findLowestCost(int index, bool[] visitedNodes)
+        public int findLowestCost(int[] distances, bool[] visitedNodes)
         {
             int lowestCost = int.MaxValue; // int which holds the lowest cost found
             int node_index = -1; // int which holds the index of the node with lowest cost
 
             // iterate trough graph node containing the costs to other nodes
-            for (int i = 0; i < _graph.GetLength(1); i++)
+            for (int i = 0; i < _graph.GetLength(0); i++)
             {
                 // check if the current node is connected (not 0) and has a lower cost
-                if (visitedNodes[i] == false && _graph[index, i] > 0 && _graph[index, i] <= lowestCost)
+                if (visitedNodes[i] == false && distances[i] <= lowestCost)
                 {
-                    lowestCost = _graph[index, i];
+                    lowestCost = distances[i];
                     node_index = i;
                 }
             }
@@ -62,14 +62,30 @@ namespace DijkstrasAlgoritmeCsharp
             }
 
             distances[_source] = 0; // the distance of the first node to itself is always zero
+            
 
-            for (int i = 0; i < amountNodes; i++)
+            for (int i = 0; i < amountNodes - 1; i++)
             {
                 // find the node with the lowest cost
-                int lowestIndex = findLowestCost(i, visited);
+                int lowestIndex = findLowestCost(distances, visited);
 
                 // set this node to visited
                 visited[lowestIndex] = true;
+
+                for (int v = 0; v < amountNodes; v++)
+                {
+                    if (!visited[v] && _graph[lowestIndex, v] != 0 && distances[lowestIndex] != int.MaxValue &&
+                        distances[lowestIndex] + _graph[lowestIndex, v] < distances[v])
+                        distances[v] = distances[lowestIndex] + _graph[lowestIndex, v];
+                }
+            }
+
+            Console.Write("The shortest paths from source to nodes:");
+            Console.WriteLine("");
+
+            for (int i = 0; i < amountNodes; i++)
+            {
+                Console.WriteLine(i + "\t\t" + distances[i]);
             }
         }
     }

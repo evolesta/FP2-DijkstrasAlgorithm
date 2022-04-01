@@ -18,8 +18,6 @@
 
             Dijkstra dijkstra = new Dijkstra(source, graph);
             dijkstra.search();
-
-            Console.WriteLine("Test");
         }
     }
 }
