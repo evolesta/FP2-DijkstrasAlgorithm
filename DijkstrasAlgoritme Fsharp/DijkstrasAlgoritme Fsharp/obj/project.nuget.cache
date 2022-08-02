@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RZvdFLJEUV8aesKXCWOGy0EYiU/mlWBhuSV7Awc4MNI94inwoDYxrsSAU2YlPdGUdKtgy7vnjLgGxI1mnGbGRw==",
+  "success": true,
+  "projectFilePath": "C:\\repos\\FP2-DijkstrasAlgorithm\\DijkstrasAlgoritme Fsharp\\DijkstrasAlgoritme Fsharp\\DijkstrasAlgoritme Fsharp.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\e94\\.nuget\\packages\\fsharp.core\\6.0.5\\fsharp.core.6.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
