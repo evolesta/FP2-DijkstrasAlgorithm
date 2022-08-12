@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OJyrbbDnv2pLchmG8DlT0Dcph8hBNcPRqLVOCgs79bT52DwHvXDmIVuyI0g5B/AfdlAnyq4ljLtzKeKTQNlYKw==",
+  "dgSpecHash": "JzP/4rsMQ4ddow5FQrueldIoXpC4SLup134TcvzD1USalarqqIqSYl45rP12F7r13wCqlAt+WLF/J9GNNBiz5g==",
   "success": true,
-  "projectFilePath": "C:\\repos\\FunctioneelProgrammeren2\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp.csproj",
+  "projectFilePath": "C:\\repos\\FP2-DijkstrasAlgorithm\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

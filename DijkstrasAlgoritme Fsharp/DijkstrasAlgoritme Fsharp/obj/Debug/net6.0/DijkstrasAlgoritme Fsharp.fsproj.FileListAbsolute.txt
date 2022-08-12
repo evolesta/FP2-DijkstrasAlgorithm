@@ -1,0 +1,26 @@
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\DijkstrasAlgoritme Fsharp.exe
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\DijkstrasAlgoritme Fsharp.deps.json
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\DijkstrasAlgoritme Fsharp.runtimeconfig.json
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\DijkstrasAlgoritme Fsharp.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\DijkstrasAlgoritme Fsharp.pdb
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\FSharp.Core.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\cs\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\de\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\es\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\fr\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\it\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\ja\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\ko\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\pl\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\pt-BR\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\ru\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\tr\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\zh-Hans\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\bin\Debug\net6.0\zh-Hant\FSharp.Core.resources.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\obj\Debug\net6.0\DijkstrasAlgoritme Fsharp.fsproj.AssemblyReference.cache
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\obj\Debug\net6.0\DijkstrasAlgoritme Fsharp.AssemblyInfoInputs.cache
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\obj\Debug\net6.0\DijkstrasAlgoritme Fsharp.AssemblyInfo.fs
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\obj\Debug\net6.0\DijkstrasAlgoritme Fsharp.fsproj.CopyComplete
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\obj\Debug\net6.0\DijkstrasAlgoritme Fsharp.dll
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\obj\Debug\net6.0\DijkstrasAlgoritme Fsharp.pdb
+C:\repos\FP2-DijkstrasAlgorithm\DijkstrasAlgoritme Fsharp\DijkstrasAlgoritme Fsharp\obj\Debug\net6.0\DijkstrasAlgoritme Fsharp.genruntimeconfig.cache

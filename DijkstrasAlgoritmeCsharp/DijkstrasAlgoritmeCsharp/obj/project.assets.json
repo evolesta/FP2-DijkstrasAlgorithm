@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\FunctioneelProgrammeren2\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp.csproj",
+      "projectUniqueName": "C:\\repos\\FP2-DijkstrasAlgorithm\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp.csproj",
       "projectName": "DijkstrasAlgoritmeCsharp",
-      "projectPath": "C:\\repos\\FunctioneelProgrammeren2\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp.csproj",
+      "projectPath": "C:\\repos\\FP2-DijkstrasAlgorithm\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp.csproj",
       "packagesPath": "C:\\Users\\elange\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\FunctioneelProgrammeren2\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp\\obj\\",
+      "outputPath": "C:\\repos\\FP2-DijkstrasAlgorithm\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\elange\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
