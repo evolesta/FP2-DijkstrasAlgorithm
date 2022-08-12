@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v6.0": {
       "DijkstrasAlgoritme Fsharp/1.0.0": {
         "dependencies": {
-          "FSharp.Core": "6.0.5"
+          "FSharp.Core": "6.0.2"
         },
         "runtime": {
           "DijkstrasAlgoritme Fsharp.dll": {}
         }
       },
-      "FSharp.Core/6.0.5": {
+      "FSharp.Core/6.0.2": {
         "runtime": {
           "lib/netstandard2.1/FSharp.Core.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.522.27404"
+            "fileVersion": "6.0.221.63103"
           }
         },
         "resources": {
@@ -71,12 +71,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FSharp.Core/6.0.5": {
+    "FSharp.Core/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FwdQVtpj34xt8vKyFUUeNIS+obWlEnSrSW7y1ivRVts/ZsrUsKyOd0bZehgFhWdnB/NBsa9DCWvNFMTO0XDFcg==",
-      "path": "fsharp.core/6.0.5",
-      "hashPath": "fsharp.core.6.0.5.nupkg.sha512"
+      "sha512": "sha512-8GZqv6buY71KQlWT+cl2eMi+aNX9xQ61RgI3Pzv9zPxPOX6tWCLRrBj0MYQ3h871r2RhiHUl7f0AXUD/POr8eA==",
+      "path": "fsharp.core/6.0.2",
+      "hashPath": "fsharp.core.6.0.2.nupkg.sha512"
     }
   }
 }

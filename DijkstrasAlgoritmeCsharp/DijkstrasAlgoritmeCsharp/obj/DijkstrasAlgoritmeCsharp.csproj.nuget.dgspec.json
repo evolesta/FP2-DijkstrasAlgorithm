@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\repos\\FP2-DijkstrasAlgorithm\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp.csproj",
         "projectName": "DijkstrasAlgoritmeCsharp",
         "projectPath": "C:\\repos\\FP2-DijkstrasAlgorithm\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp.csproj",
-        "packagesPath": "C:\\Users\\e94\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\elange\\.nuget\\packages\\",
         "outputPath": "C:\\repos\\FP2-DijkstrasAlgorithm\\DijkstrasAlgoritmeCsharp\\DijkstrasAlgoritmeCsharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\e94\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elange\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

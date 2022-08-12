@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "FSharp.Core/6.0.5": {
+      "FSharp.Core/6.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/FSharp.Core.dll": {}
@@ -62,17 +62,17 @@
     }
   },
   "libraries": {
-    "FSharp.Core/6.0.5": {
-      "sha512": "FwdQVtpj34xt8vKyFUUeNIS+obWlEnSrSW7y1ivRVts/ZsrUsKyOd0bZehgFhWdnB/NBsa9DCWvNFMTO0XDFcg==",
+    "FSharp.Core/6.0.2": {
+      "sha512": "8GZqv6buY71KQlWT+cl2eMi+aNX9xQ61RgI3Pzv9zPxPOX6tWCLRrBj0MYQ3h871r2RhiHUl7f0AXUD/POr8eA==",
       "type": "package",
-      "path": "fsharp.core/6.0.5",
+      "path": "fsharp.core/6.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "contentFiles/any/netstandard2.0/FSharp.Core.xml",
         "contentFiles/any/netstandard2.1/FSharp.Core.xml",
-        "fsharp.core.6.0.5.nupkg.sha512",
+        "fsharp.core.6.0.2.nupkg.sha512",
         "fsharp.core.nuspec",
         "lib/netstandard2.0/FSharp.Core.dll",
         "lib/netstandard2.0/FSharp.Core.xml",
@@ -109,11 +109,11 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "FSharp.Core >= 6.0.5"
+      "FSharp.Core >= 6.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\e94\\.nuget\\packages\\": {}
+    "C:\\Users\\elange\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -121,11 +121,11 @@
       "projectUniqueName": "C:\\repos\\FP2-DijkstrasAlgorithm\\DijkstrasAlgoritme Fsharp\\DijkstrasAlgoritme Fsharp\\DijkstrasAlgoritme Fsharp.fsproj",
       "projectName": "DijkstrasAlgoritme Fsharp",
       "projectPath": "C:\\repos\\FP2-DijkstrasAlgorithm\\DijkstrasAlgoritme Fsharp\\DijkstrasAlgoritme Fsharp\\DijkstrasAlgoritme Fsharp.fsproj",
-      "packagesPath": "C:\\Users\\e94\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\elange\\.nuget\\packages\\",
       "outputPath": "C:\\repos\\FP2-DijkstrasAlgorithm\\DijkstrasAlgoritme Fsharp\\DijkstrasAlgoritme Fsharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\e94\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elange\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -133,7 +133,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\6.0.301\\FSharp\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -150,7 +149,7 @@
           "FSharp.Core": {
             "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
             "target": "Package",
-            "version": "[6.0.5, )",
+            "version": "[6.0.2, )",
             "generatePathProperty": true
           }
         },
@@ -169,7 +168,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

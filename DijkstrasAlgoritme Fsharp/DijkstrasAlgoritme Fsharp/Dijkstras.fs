@@ -2,31 +2,27 @@
 
 // create a hardcoded graph with distances between nodes in a multi dim. array
 let graph = array2D [
-    [0;4;0;0;7];
-    [4;0;1;2;0];
-    [0;1;0;6;0];
-    [0;2;6;0;0];
-    [7;0;0;0;0]
+    [0; 6; 0; 1; 0];
+    [6; 0; 5; 2; 2];
+    [0; 5; 0; 0; 5];
+    [1; 2; 0; 0; 1];
+    [0; 2; 5; 1; 0]
 ]
 
 // start node to start searching
 let source = 0
 
-// Find the node with the lowest cost available and return its index
-let findLowestCost distances visitedNodes = 
+let findLowestIndex (distances : int[]) (visited : bool[]) =
     let lowestCost = 9999
     let node_index = -1
-    
-    let rec findLowestCostRec i = 
-        if visitedNodes[i] = false && distances[i] <= lowestCost then
-            lowestCost = distances[i]
-            node_index = i
-        else
-            let x = i + 1
-            findLowestCostRec x
 
-    node_index
+    let rec findLowestIndexRec i x n =
+        if graph.GetLength(0) <= i then n
+        else if visited[i] = false && distances[i] <= x then
+            findLowestIndexRec (i + 1) distances[i] i
+        else findLowestIndexRec (i + 1) x n
 
+    findLowestIndexRec 0 lowestCost node_index
 
 
 let dijkstrasSearch = 
@@ -36,9 +32,27 @@ let dijkstrasSearch =
 
     distances[source] <- 0 // the distance of the starting node to itself is always zero
 
-    
+    let rec findShortestPathRec i (distances : int[]) (visited : bool[]) =
+        if (amountNodes - 1) <= i then true
+        else
+            let lowestIndex = findLowestIndex distances visited
+            visited[lowestIndex] <- true
 
-    printf "Test"
+            let rec searchPathRec v =
+                if amountNodes <= v then true
+                else if visited[v] = false && graph[lowestIndex, v] <> 0 && distances[lowestIndex] <> 9999 &&
+                    distances[lowestIndex] + graph[lowestIndex, v] < distances[v] then
+                        distances[v] <- (distances[lowestIndex] + graph[lowestIndex, v])
+                        searchPathRec (v + 1)
+                    else searchPathRec (v + 1)
+
+            searchPathRec 0
+            findShortestPathRec (i + 1) distances visited
+
+    findShortestPathRec 0 distances visited
+
+    printf "The shortest paths from source to nodes:"
+    printf ""
     
 
 dijkstrasSearch
