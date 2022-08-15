@@ -18,11 +18,11 @@ def findLowestIndex(distances, visited):
             return n
         else:
             if visited[i] == False and distances[i] <= x:
-                findLowestIndexRec((i + 1), distances[i], i)
+                return findLowestIndexRec((i + 1), distances[i], i)
             else:
-                findLowestIndexRec((i + 1), x, n)
+                return findLowestIndexRec((i + 1), x, n)
 
-    findLowestIndexRec(0, lowestCost, node_index)
+    return findLowestIndexRec(0, lowestCost, node_index)
 
 def dijkstrasSearch():
     amountNodes = len(graph) # get the amount of nodes from the graph array
@@ -31,6 +31,28 @@ def dijkstrasSearch():
 
     distances[0] = 0 # the distance of the starting node to itself is always zero
 
+    # search for the shortest path in costs for each node from the starting node
+    for i in range(amountNodes - 1):
+        lowestIndex = findLowestIndex(distances, visited)
+        visited[lowestIndex] = True
+
+        # search for the shortest path recursively
+        def searchPathRec(v):
+            if amountNodes <= v:
+                return True
+            else:
+                if visited[v] == False and graph[lowestIndex][v] != 0 and distances[lowestIndex] != 9999 and (distances[lowestIndex] + graph[lowestIndex][v]) < distances[v]:
+                    distances[v] = (distances[lowestIndex] + graph[lowestIndex][v])
+                    return searchPathRec(v + 1)
+                else:
+                    return searchPathRec(v + 1)
+
+        searchPathRec(0)
+
+    print("The shortest path from source to nodes:")
     print("")
+    
+    for i in range(amountNodes):
+        print(str(i) + "        " + str(distances[i]))
 
 dijkstrasSearch()
